@@ -1,5 +1,5 @@
-export const baseUrl = process.env.BASE_URL
+export const baseUrl = process.env.REACT_APP_BASE_URL
 
-export const API_Key = process.env.API_KEY
+export const API_Key = process.env.REACT_APP_API_KEY
 
-export const imageUrl = process.env.IMAGE_URL
+export const imageUrl = process.env.REACT_APP_IMAGE_URL
