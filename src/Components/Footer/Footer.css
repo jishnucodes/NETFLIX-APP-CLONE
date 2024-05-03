@@ -1,0 +1,50 @@
+.footer{
+    background: #111;
+    height: auto;
+}
+.container{
+    padding-top: 40px;
+    padding-bottom: 34px;
+    
+}
+.container .socialMedia-link{
+    width: 100%;
+}
+ .icon{
+    margin-left:25px;
+    color: white;
+    cursor: pointer;
+}
+.description-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.description-content a{
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+    margin-bottom: 15px;
+    text-wrap: nowrap;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.description-content a:hover{
+    text-decoration: underline;
+    color: rgba(128, 128, 128, 0.551);
+    transition: 0.3s ease-in-out;
+
+}
+.service-button button{
+    padding: 5px 14px;
+    border: none;
+    background: white;
+    color: grey;
+}
+.service-button button:hover{
+    background: rgba(128, 128, 128, 0.748);
+    color: rgba(0, 0, 0, 0.719);
+    transition: 0.3s ease-in-out;
+}
+.netflix-local{
+    color: grey;
+}
